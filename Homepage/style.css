@@ -1,0 +1,119 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 10px;
+}
+ul li{
+    display: inline-block;
+    margin-right: 5px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px; 
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title h1{
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: fantasy;
+}
+.button{
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn{
+    border: 1px solid white;    
+    padding: 10px 20px;
+    color: beige;
+    text-decoration: none;
+    transition:0.6s ease;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.dropbtn{
+    background-color: transparent;
+    color: white;
+    padding: 7px;
+    font-size: 16px;
+    border: none;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.droplets{
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 25px;
+    box-shadow: 0px 10px 18px 0px rgba(192, 161, 161, 0.2);
+    z-index: 1;
+}
+.droplets a{
+    color:white;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+}
+.droplets a:hover{background-color: white;color: black;}
+.dropdown:hover .droplets{display: block;}
+.dropdown:hover .dropbtn{background-color: transparent;}
+.box{
+    justify-content: center;
+}
+.Search{
+    width: 20%;
+    position: relative;
+    padding: 6px;
+    color: white;
+    border: 0.1px solid rgb(29, 28, 28);
+    box-sizing: border-box;
+    background: transparent;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-top: 45px;
+    margin-left: 20px;
+    box-shadow: 2px 2px 4px 1px lightgray;
+}
+::placeholder{
+    color: white;
+}
+.fa-search{
+    position: absolute;
+    top: 8%;
+    left: 20%;
+    transform: translate(-50%);
+    color: whitesmoke;
+    font-size: 16px;
+}
+/*Homepage*/
+
+
+
