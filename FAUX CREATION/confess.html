@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login-Form</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+            /*This is for the confess button*/
+.form{
+    width: 400px;
+    height: 400px;
+    background: transparent;
+    color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    box-shadow: 1px 0px 2px 2px black;
+    padding: 70px 60px;
+}
+h1{
+    margin: 0 0 20px;
+    padding: 0;
+    text-align: center;
+    font-size: 30px;
+}
+.form p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+.form a{
+    text-decoration: none;
+    color: black;
+}
+.form a:hover{
+    color: yellow;
+}
+.in{
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    background: transparent;
+    box-shadow: 1px 1px 8px 0px black;
+    height: 30px;
+    font-size: 16px;
+    padding-left: 5px;
+}
+.form ::placeholder{
+    color: black;
+    font-size: 16px;
+    padding-left: 5px;
+}
+.int{
+    background-color: transparent;
+    color: black;
+    padding: 2px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 16px;
+    transition: 0.6s ease;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.int:hover{
+    color: black;
+    background:orangered;
+}
+.out{
+    margin-top: 10px;
+}
+/* Login form, Done.*/
+        </style>
+    </head>
+   <header style="background-image: url(bv.jpg); background-position: center; background-size: cover; height: 100vh;">
+     <body>
+         <div class="form">
+             <h1>Login Here</h1>
+             <form>
+                 <p>Username</p>
+                 <input type="text" class="in" placeholder="Enter Username">
+                 <p>Password</p>
+                 <input type="password" class="in" placeholder="Enter Password">
+                 <a href="rooom.html" style="border: none; box-shadow: 1px 1px 8px 0px black;" class="int">Login</a>
+                 <div class="out">
+                 <a href="#">Forget password?</a><br>
+                 <a href="signup.html">Don't have an account?</a>
+                 </div>
+             </form>
+         </div>
+     </body>
+   </header>
+</html>

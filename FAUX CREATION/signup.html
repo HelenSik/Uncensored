@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign-up</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+            /*Sign-up form here.*/
+.sign{
+    width: 400px;
+    height: 600px;
+    background: transparent;
+    color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    box-shadow: 1px 0px 2px 2px black;
+    padding: 70px 60px;
+}
+h1{
+    margin: 0 0 20px;
+    padding: 0;
+    text-align: center;
+    font-size: 35px;
+}
+.sign label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+.up{
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    background: transparent;
+    box-shadow: 1px 1px 8px 0px rgb(31, 12, 12);
+    height: 30px;
+    font-size: 16px;
+    padding-left: 5px;
+    color: black;
+}
+.sign ::placeholder{
+    color: black;
+}
+input[type=text], select{
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    background: transparent;
+    box-shadow: 1px 1px 8px 0px rgb(31, 12, 12);
+    height: 30px;
+    font-size: 16px;
+    padding-left: 5px;
+    color: black;
+}
+.submit{
+    border: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: transparent;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 1px 0px 2px 1px rgb(31,12,12);
+    margin-left: 100px;
+}.submit:hover{
+    color: black;
+    background-color: orangered;
+}
+        </style>
+    </head>
+   <header style="background-image: url(bv.jpg); background-position: center; background-size: cover; height: 100vh;">
+    <body>
+        <div class="sign">
+            <h1>Register Here!</h1>
+            <form>
+            <label>Phone Number/E-mail</label>
+            <input type="text" class="up" placeholder="Enter Number or E-mail"><br>
+            <label>Username</label>
+            <input type="text" class="up" placeholder="Enter Username"><br>
+            <label>Gender</label>
+                <select>
+                    <option value="">Select</option>
+                    <option value="">Female</option>
+                    <option value="">Male</option>
+                    <option value="">Lesbian</option>
+                    <option value="">Bisexual</option>
+                    <option value="">Transgender</option>
+                    <option value="">Gay</option>
+                    <option value="">Queer</option>
+                </select>
+            <label>Password</label>
+            <input type="text" class="up" placeholder="Enter Password"><br>
+            <label>Confirm Password</label>
+            <input type="text" class="up" placeholder="Re-enter Password"><br>
+            <td colspan="2"><input type="checkbox">I accept terms and conditions.</td><br>
+            <td colspan="2"><input type="checkbox">I don't accept terms and conditions.</td>
+            <button class="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+     
+   </header>
+</html>
